@@ -10,7 +10,7 @@ Google Trend Grabber is a simple javascript REST API built around the  [google-t
 
 >Returns a list of numbers that represent search interest relative to the highest point on the chart for the word. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. Likewise a score of 0 means the term was less than 1% as popular as the peak.
 
-### /InterestOverTime/:word/:period
+### /InterestOverTime/{word}/{period}
 | Parameter | Type |
 | ------ | ------ |
 | word | string |
